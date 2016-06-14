@@ -1,0 +1,4 @@
+.idea
+.DS_Store
+tests/web/app/config/db.php
+vendor/

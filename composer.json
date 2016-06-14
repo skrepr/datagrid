@@ -1,0 +1,20 @@
+{
+    "name": "abbert/datagrid",
+    "description": "PHP DataTables backend",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albert Bakker",
+            "email": "hello@abbert.nl"
+        }
+    ],
+    "require-dev": {
+        "doctrine/orm": "^2.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "Abbert\\Datagrid\\": "src",
+          "App\\": "example/app"
+        }
+    }
+}
