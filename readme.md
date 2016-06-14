@@ -1,10 +1,10 @@
-# Abbert Datagrid 1.0.0
+# Abbert Datagrid
 
 ## Installation
 
 Use composer to install the package
 
-`composer require "abbert/datagrid v1.0.0"`
+`composer require "abbert/datagrid"`
 
 ## Usage
 
@@ -23,10 +23,6 @@ Use composer to install the package
     $datagrid->render();
     
     echo $datagrid;
-
-## Version
-
-Current version is `v1.0.0`
 
 ## Todo
 
