@@ -1,2 +1,2 @@
-tests/web/app/config/db.php
+example/app/config/db.php
 vendor/
