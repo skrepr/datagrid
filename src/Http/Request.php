@@ -28,6 +28,8 @@ class Request
 
     protected $_pathInfo = '';
 
+    protected $_requestUri = '';
+
     public function get($key)
     {
         switch (true) {
