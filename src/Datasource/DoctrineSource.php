@@ -52,6 +52,10 @@ class DoctrineSource extends AbstractSource
      */
     public function totalCount()
     {
+        if (method_exists($this->datagrid, 'getRowCount')) {
+            return $this->datagrid->getRowCount();
+        }
+
         $qb = clone $this->queryBuilder;
         $result = $qb->select('COUNT(t)')->getQuery()->getScalarResult();
 
