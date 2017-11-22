@@ -92,8 +92,13 @@ class ZendDbSource extends AbstractSource
         foreach ($select->getPart('columns') as $c) {
             if ($c[1] instanceof \Zend_Db_Expr) {
                 $return[] = $c[1];
-            } elseif ($c[1] == '*') {
+            } elseif ($c[1] == '*' && $c[0] === $this->table->info('name')) {
                 foreach ($this->table->info(\Zend_Db_Table_Abstract::COLS) as $col) {
+                    $return[] = '`'.$c[0].'`.`'.$col.'`';
+                }
+            } elseif ($c[1] === '*') {
+                $table = new \Zend_Db_Table($c[0]);
+                foreach ($table->info(\Zend_Db_Table_Abstract::COLS) as $col) {
                     $return[] = '`'.$c[0].'`.`'.$col.'`';
                 }
             } else {
