@@ -49,7 +49,7 @@ class ArraySource extends AbstractSource
         foreach ($array as $item) {
             foreach ($item as $value) {
                 if (stripos($value, $term) !== false) {
-                    $results[] = $item;
+                    $results[md5(serialize($item))] = $item;
                 }
             }
         }
