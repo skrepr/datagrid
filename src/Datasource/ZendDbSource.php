@@ -1,5 +1,5 @@
 <?php
-namespace Abbert\Datagrid\Datasource;
+namespace Skrepr\Datagrid\Datasource;
 
 class ZendDbSource extends AbstractSource
 {

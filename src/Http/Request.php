@@ -1,16 +1,16 @@
 <?php
 /*
- * This file is part of the abbert/datagrid package.
+ * This file is part of the skrepr/datagrid package.
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Abbert\Datagrid\Http;
+namespace Skrepr\Datagrid\Http;
 
 /**
  * Class Request
- * @package Abbert\Datagrid\Http
+ * @package Skrepr\Datagrid\Http
  *
  * @copyright  Copyright (c) 2005-2014 Zend Technologies USA Inc. (http://www.zend.com)
  *

@@ -1,10 +1,10 @@
 <?php
 namespace App\Datagrid;
 
-use Abbert\Datagrid\Column\ActionColumn;
-use Abbert\Datagrid\Column\CallbackColumn;
-use Abbert\Datagrid\Datagrid;
-use Abbert\Datagrid\Datasource\DoctrineSource;
+use Skrepr\Datagrid\Column\ActionColumn;
+use Skrepr\Datagrid\Column\CallbackColumn;
+use Skrepr\Datagrid\Datagrid;
+use Skrepr\Datagrid\Datasource\DoctrineSource;
 
 class SecondTestColumn
 {

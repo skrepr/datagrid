@@ -1,6 +1,6 @@
 <?php
 /*
- * This file is part of the abbert/datagrid package.
+ * This file is part of the skrepr/datagrid package.
  *
  * (c) Albert Bakker <hello@abbert.nl>
  *
@@ -8,14 +8,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Abbert\Datagrid\Datasource;
+namespace Skrepr\Datagrid\Datasource;
 
 use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\QueryBuilder;
 
 /**
  * Class DoctrineSource
- * @package Abbert\Datagrid\Datasource
+ * @package Skrepr\Datagrid\Datasource
  */
 class DoctrineSource extends AbstractSource
 {

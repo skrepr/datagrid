@@ -1,6 +1,6 @@
 <?php
 /*
- * This file is part of the abbert/datagrid package.
+ * This file is part of the skrepr/datagrid package.
  *
  * (c) Albert Bakker <hello@abbert.nl>
  *
@@ -8,16 +8,16 @@
  * file that was distributed with this source code.
  */
 
-namespace Abbert\Datagrid;
+namespace Skrepr\Datagrid;
 
 trait DatagridAwareTrait
 {
     /**
-     * @var \Abbert\Datagrid\Datagrid
+     * @var \Skrepr\Datagrid\Datagrid
      */
     protected $datagrid;
 
-    public function setDatagrid(\Abbert\Datagrid\Datagrid $datagrid)
+    public function setDatagrid(\Skrepr\Datagrid\Datagrid $datagrid)
     {
         $this->datagrid = $datagrid;
     }

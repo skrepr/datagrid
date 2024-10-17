@@ -1,6 +1,6 @@
 <?php
 /*
- * This file is part of the abbert/datagrid package.
+ * This file is part of the skrepr/datagrid package.
  *
  * (c) Albert Bakker <hello@abbert.nl>
  *
@@ -8,13 +8,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Abbert\Datagrid\Column;
-use Abbert\Datagrid\DatagridAwareInterface;
-use Abbert\Datagrid\DatagridAwareTrait;
+namespace Skrepr\Datagrid\Column;
+use Skrepr\Datagrid\DatagridAwareInterface;
+use Skrepr\Datagrid\DatagridAwareTrait;
 
 /**
  * Class CallbackColumn
- * @package Abbert\Datagrid\Column
+ * @package Skrepr\Datagrid\Column
  */
 class CallbackColumn extends AbstractColumn implements DatagridAwareInterface
 {

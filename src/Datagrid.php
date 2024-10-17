@@ -1,6 +1,6 @@
 <?php
 /*
- * This file is part of the abbert/datagrid package.
+ * This file is part of the skrepr/datagrid package.
  *
  * (c) Albert Bakker <hello@abbert.nl>
  *
@@ -8,13 +8,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Abbert\Datagrid;
+namespace Skrepr\Datagrid;
 
-use Abbert\Datagrid\Column\AbstractColumn;
-use Abbert\Datagrid\Column\CallbackColumn;
-use Abbert\Datagrid\Datasource\AbstractSource;
-use Abbert\Datagrid\Http\Request;
-use Abbert\Datagrid\Row\DefaultRow;
+use Skrepr\Datagrid\Column\AbstractColumn;
+use Skrepr\Datagrid\Column\CallbackColumn;
+use Skrepr\Datagrid\Datasource\AbstractSource;
+use Skrepr\Datagrid\Http\Request;
+use Skrepr\Datagrid\Row\DefaultRow;
 
 class Datagrid
 {

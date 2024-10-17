@@ -1,6 +1,6 @@
 <?php
 /*
- * This file is part of the abbert/datagrid package.
+ * This file is part of the skrepr/datagrid package.
  *
  * (c) Albert Bakker <hello@abbert.nl>
  *
@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Abbert\Datagrid\Datasource;
+namespace Skrepr\Datagrid\Datasource;
 
-use Abbert\Datagrid\Datagrid;
+use Skrepr\Datagrid\Datagrid;
 
 abstract class AbstractSource
 {
